@@ -1,0 +1,23 @@
+{
+  "name": "addSSH",
+  "version": "1.0.0",
+  "description": "Tool for adding new ssh to config file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kvieira90/EasySSH.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kvieira90/EasySSH/issues"
+  },
+  "homepage": "https://github.com/kvieira90/EasySSH",
+  "dependencies": {
+    "inquirer": "^0.10.1",
+    "lodash": "^3.10.1"
+  }
+}
