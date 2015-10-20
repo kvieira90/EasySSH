@@ -1,7 +1,7 @@
 'use strict';
 
 var inquirer = require("inquirer");
-var jetpack = require('fs-jetpack');
+var fsjetpack = require('fs-jetpack');
 var _ = require('lodash');
 
 var questions = [{
@@ -44,6 +44,7 @@ inquirer.prompt(questions, function( answers ) {
 			cleanString += '  ' + key + ' ' + value + '\n';
 		}
 	});
-  jetpack.append('../../.ssh/config', cleanString);
+	var filelocation = process.env['HOME'] + '/.ssh/config';
+  fsjetpack.append(filelocation, cleanString);
   console.log('Congrats! You can now access your server by typing ssh ' + name);
 });
