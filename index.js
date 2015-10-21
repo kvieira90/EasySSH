@@ -25,9 +25,9 @@ var questions = [{
 	message: 'Enter the location of your identity file (or leave blank)'
 },
 {
-	type: 'password', 
-	name: 'Password',
-	message: 'Enter your password (or leave blank)'
+	type: 'input',
+	name: 'PasswordAuthentication',
+	message: 'Use password for login? (yes/no)'
 },
 {
 	type: 'input', 

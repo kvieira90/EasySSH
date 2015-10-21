@@ -1,5 +1,5 @@
 {
-  "name": "addSSH",
+  "name": "addssh",
   "version": "1.0.0",
   "description": "Tool for adding new ssh to config file",
   "main": "index.js",
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git@github.com:kvieira90/EasySSH.git"
   },
-  "author": "",
+  "author": "Keith Vieira",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kvieira90/EasySSH/issues"
