@@ -6,6 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git@github.com:kvieira90/EasySSH.git"
@@ -18,6 +26,7 @@
   "homepage": "https://github.com/kvieira90/EasySSH",
   "dependencies": {
     "inquirer": "^0.10.1",
-    "lodash": "^3.10.1"
+    "lodash": "^3.10.1",
+    "meow": "^3.4.2"
   }
 }
