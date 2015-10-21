@@ -50,3 +50,10 @@ That's all. Now depending on what you used for a nickname for your server, type
 ```
 $ ssh server-nickname
 ```
+ and you're in. If you followed the above steps and entered the information correctly you shouldn't have any problems. Future release of easyssh will allow for editing previously setup ssh configurations. If for some reason it doesn't work, type
+
+ ```
+ $ vi ~/.ssh/config
+ ```
+
+ and double check the information entered in your config file. 
