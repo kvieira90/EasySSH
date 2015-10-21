@@ -1,5 +1,5 @@
 {
-  "name": "addssh",
+  "name": "easyssh",
   "version": "1.0.0",
   "description": "Tool for adding new ssh to config file",
   "main": "index.js",
