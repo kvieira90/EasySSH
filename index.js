@@ -37,9 +37,10 @@ var questions = [{
 
 inquirer.prompt(questions, function( answers ) {
 	var name = answers.name
+	delete answers['name'];
 	var cleanString = 'Host ' + name + '\n';
 	_.forEach(answers, function(value, key){
-		if(value !== '' || key !== 'name'){
+		if(value !== ''){
 			cleanString += '  ' + key + ' ' + value + '\n';
 		}
 	});
